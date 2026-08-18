@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@import "./_variables.css";
+@import "./_reset.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}

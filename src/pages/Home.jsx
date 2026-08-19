@@ -1,7 +1,8 @@
+import Navbar from "@/components/Navbar/Navbar"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <header className="bg-[#FBF6E8]"><Navbar/></header>
   )
 }
 

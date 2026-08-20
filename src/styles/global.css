@@ -1,7 +1,13 @@
-@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@400;500;600;700&display=swap");
 
+@import "tailwindcss";
 @import "./_variables.css";
 @import "./_reset.css";
+
+@theme {
+  --font-anton: "Anton", sans-serif;
+  --font-caveat: "Caveat", cursive;
+}
 
 html {
   scroll-behavior: smooth;

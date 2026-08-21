@@ -9,7 +9,7 @@ const Hero = () => {
       className="min-h-[calc(100vh-5rem)] bg-cover bg-center"
       style={{ backgroundImage: "url('/images/background.png')" }}
     >
-      <div className="mx-30 flex gap-16 py-16">
+      <div className="max-w-7xl mx-auto flex gap-16 py-16">
         {/* Conteúdo */}
         <div className="flex flex-1 flex-col gap-6 py-16">
           <ChipButton>

@@ -1,6 +1,6 @@
 const ProductCard = ({ item }) => {
   return (
-    <div className="max-w-157 rounded-4xl bg-white p-3 shadow-lg">
+    <div className="max-w-157 rounded-4xl bg-white p-3 shadow-lg" >
       <div className="h-64 w-full overflow-hidden rounded-3xl">
         <img
           src={item.img}

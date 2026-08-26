@@ -1,4 +1,4 @@
-import ChipButton from "@/components/ChipButton";
+import Depoiments from "@/components/Depoiments";
 import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
@@ -16,6 +16,7 @@ const Home = () => {
         <Products />
         <HowItWorks />
         <Gallery />
+        <Depoiments />
       </main>
     </div>
   );

@@ -23,18 +23,18 @@ const data = [
 
   },
   {
-    id: 1,
+    id: 5,
     img: "/mockups/prod-canecas-SI831NSv.jpg",
     description: "Caneca feita pela VIBRA"
   },
   {
-    id: 2,
+    id: 6,
     img: "/mockups/prod-copos-Ddq4rgPy.jpg",
     description: "Copo feito pela VIBRA"
 
   },
   {
-    id: 3,
+    id: 7,
     img: "/mockups/prod-ecobags-DVBBoTyU.jpg",
     description: "Ecobag feita pela VIBRA"
 

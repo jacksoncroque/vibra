@@ -3,7 +3,7 @@ import data from "./data";
 
 const HowItWorks = () => {
   return (
-    <section className="bg-[rgb(251,246,232)] py-8">
+    <section className="bg-[rgb(251,246,232)] py-8" id="howItWorks">
       <div className="mx-auto py-8 max-w-7xl bg-[#f4d27ca2] rounded-4xl p-12">
         {/*titulo*/}
         <h1 className="font-anton flex flex-col my-4 text-[48px]">
@@ -26,8 +26,8 @@ const HowItWorks = () => {
               </div>
               <div>
                 <h1 className="font-anton flex flex-col my-4 text-[20px] text-[#000000a4]">
-                  <span className="text-[#E34935] leading-6 text-[14px]">
-                    {item.id}
+                  <span className="text-[#E34935] leading-6 text-[16px]">
+                    {0}{item.id}
                   </span>
                   {item.title}
                 </h1>

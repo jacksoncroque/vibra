@@ -4,7 +4,7 @@ import data from "./data";
 
 const Products = () => {
   return (
-    <section className="bg-[rgb(251,246,232)]">
+    <section className="bg-[rgb(251,246,232)]" id="products">
       {/*título*/}
       <div className="mx-auto py-8 max-w-7xl">
         <h1 className="font-anton flex flex-col my-4 text-[48px]">

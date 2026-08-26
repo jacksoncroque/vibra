@@ -15,11 +15,25 @@ const HowItWorks = () => {
 
         {/*passo a passo*/}
 
-        <ul>
+        <ul className="grid grid-cols-4 relative">
+          <span className="absolute w-full h-0.5 bg-[#D9C99B] top-8"></span>
           {data.map((item) => (
-            <li key={item.id}>
+            <li key={item.id} className="relative z-10">
+              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white">
+                <span className="flex align-c">
+                  {<item.icon size={28} color="#e6432f" />}
+                </span>
+              </div>
               <div>
-                <span className="bg-white p-4 rounded-full">{<item.icon />}</span>
+                <h1 className="font-anton flex flex-col my-4 text-[20px] text-[#000000a4]">
+                  <span className="text-[#E34935] leading-6 text-[14px]">
+                    {item.id}
+                  </span>
+                  {item.title}
+                </h1>
+                <span className="text-[14px] text-[#775d4fb6]">
+                  {item.description}
+                </span>
               </div>
             </li>
           ))}

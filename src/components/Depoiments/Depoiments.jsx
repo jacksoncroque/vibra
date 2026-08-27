@@ -15,13 +15,14 @@ const Depoiments = () => {
           {data.map((item) => (
             <blockquote
               key={item.id}
-              className="w-102.5 h-54 bg-amber-200 flex flex-col rounded-4xl p-7 gap-4 shadow-[0_8px_20px_rgba(0,0,0,0.12)]"
+              style={{ backgroundColor: item.color }}
+              className={`w-102.5 h-54 flex flex-col rounded-4xl p-7 gap-4 shadow-[0_8px_20px_rgba(0,0,0,0.12)]`}
             >
               <div className="flex gap-1">
                 {[...Array(5)].map((_, index) => (
                   <span>
                     {
-                      <item.icon className="fill-[#000000a4] text-[#000000a4] size-4" />
+                      <item.icon className="fill-[#000000a4] stroke-0 size-5" />
                     }
                   </span>
                 ))}

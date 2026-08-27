@@ -9,6 +9,7 @@ const data = [
     author: "Mariana Souza",
     event: "Aniversário da mãe",
     label: "MS",
+    color: "#f4d37c",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ const data = [
     author: "Rafael Lima",
     event: "Café Torra Alta",
     label: "RL",
+    color: "#f07c62",
   },
   {
     id: 3,
@@ -27,6 +29,7 @@ const data = [
     author: "Juliana Alves",
     event: "Casamento",
     label: "JA",
+    color: "#8ed447",
   },
 ];
 

@@ -1,4 +1,6 @@
+import Budget from "@/components/Budget";
 import Depoiments from "@/components/Depoiments";
+import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
@@ -17,6 +19,8 @@ const Home = () => {
         <HowItWorks />
         <Gallery />
         <Depoiments />
+        <Budget />
+        <Footer />
       </main>
     </div>
   );

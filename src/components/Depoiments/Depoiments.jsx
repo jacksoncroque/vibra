@@ -20,7 +20,7 @@ const Depoiments = () => {
             >
               <div className="flex gap-1">
                 {[...Array(5)].map((_, index) => (
-                  <span>
+                  <span key={index}>
                     {
                       <item.icon className="fill-[#000000a4] stroke-0 size-5" />
                     }

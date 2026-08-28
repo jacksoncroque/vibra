@@ -30,7 +30,7 @@ const Navbar = () => {
         </ul>
 
         {/*botão*/}
-        <Button className="bg-[#8ed447] text-gray-900 ">Fazer orçamento</Button>
+        <Button className="hidden md:bg-[#8ed447] md:text-gray-900">Fazer orçamento</Button>
       </div>
     </nav>
   );

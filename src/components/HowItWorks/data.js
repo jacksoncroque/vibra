@@ -1,11 +1,12 @@
-import { Lightbulb, MousePointerClickIcon, Palette, Truck } from "lucide-react";
+import { Lightbulb, Palette, Truck } from "lucide-react";
+import { LuMousePointerClick } from "react-icons/lu";
 
 const data = [
   {
     id: 1,
     title: "ESCOLHA O PRODUTO",
     description: "Caneca, copo, ecobag ou kit completo",
-    icon: MousePointerClickIcon,
+    icon: LuMousePointerClick,
   },
   {
     id: 2,

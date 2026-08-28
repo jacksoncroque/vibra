@@ -1,0 +1,18 @@
+<svg
+  width="120"
+  height="30"
+  viewBox="0 0 120 30"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M2 15
+       C12 2, 22 2, 32 15
+       C42 28, 52 28, 62 15
+       C72 2, 82 2, 92 15
+       C102 28, 112 28, 118 15"
+    stroke="#E97961"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+</svg>

@@ -1,4 +1,5 @@
 import { ArrowRight, Stars } from "lucide-react";
+import { motion } from "motion/react";
 
 import ChipButton from "../ChipButton";
 import Button from "../Button";
@@ -26,7 +27,16 @@ const Hero = () => {
       {/* Content */}
       <div className="relative mx-auto flex w-full max-w-7xl flex-col gap-8 px-4 py-3 lg:flex-row lg:gap-16 lg:py-16">
         {/* Text */}
-        <div className="flex flex-1 flex-col gap-6 py-16 pb-0">
+        <motion.div
+          className="flex flex-1 flex-col gap-6 py-16 pb-0"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.7,
+            ease: "easeOut",
+            delay: 0.1,
+          }}
+        >
           <ChipButton>
             <Stars size={16} color="red" />
             Personalizado para você
@@ -45,31 +55,44 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col gap-3 lg:flex-row lg:gap-8">
-            <Button className="bg-[#E44734] px-7 py-5 t lg:px-5 lg:py-3">
-              <a
-                href="https://wa.me/555492150680?text=Olá!%20%F0%9F%91%8B%20Vi%20o%20site%20da%20VIBRA%20e%20adorei%20o%20trabalho%20de%20vocês.%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20e%20fazer%20um%20orçamento.%20%F0%9F%98%8A"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center text-gray-100"
-              >
-                Fazer orçamento <ArrowRight />
-              </a>
+            {/* Budget button */}
+            <Button
+              className="bg-[#E44734] px-7 py-5 lg:px-5 lg:py-3 flex items-center text-gray-100 transition duration-300 ease-in-out hover:-rotate-3 hover:scale-110"
+              href="https://wa.me/555492150680?text=Olá!%20%F0%9F%91%8B%20Vi%20o%20site%20da%20VIBRA%20e%20adorei%20o%20trabalho%20de%20vocês.%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20e%20fazer%20um%20orçamento.%20%F0%9F%98%8A"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Fazer orçamento
+              <ArrowRight />
             </Button>
 
-            <Button className="border border-gray-300 bg-white px-7 py-5 font-bold text-gray-600 lg:px-5 lg:py-3">
-              <a href="#gallery">Ver produtos</a>
+            {/* Gallery button */}
+            <Button
+              className="border border-gray-300 bg-white px-7 py-5 font-bold text-gray-600 lg:px-5 lg:py-3 transition duration-300 ease-in-out hover:rotate-3 hover:scale-110"
+              href="#gallery"
+            >
+              Ver produtos
             </Button>
           </div>
-        </div>
+        </motion.div>
 
         {/* Image */}
-        <div className="flex shrink-0 justify-center lg:items-center">
+        <motion.div
+          className="flex shrink-0 justify-center lg:items-center"
+          initial={{ opacity: 0, x: 30, scale: 0.96 }}
+          animate={{ opacity: 1, x: 0, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            ease: "easeOut",
+            delay: 0.2,
+          }}
+        >
           <img
             src="/images/hero-mockup-cKHTg1ET.jpg"
             alt="Produtos da VIBRA"
             className="h-93.5 w-93.5 rounded-[2.5rem] object-cover md:h-150 md:w-150"
           />
-        </div>
+        </motion.div>
       </div>
     </section>
   );

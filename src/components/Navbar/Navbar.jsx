@@ -1,7 +1,9 @@
-import { useEffect, useState } from "react";
-import Button from "../Button";
-import { Menu, X, ArrowRight } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
+import { Menu, X, ArrowRight } from "lucide-react";
+
+import { useEffect, useState } from "react";
+
+import Button from "../Button";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -34,10 +36,15 @@ const Navbar = () => {
         </a>
 
         {/* Desktop links */}
-        <ul className="hidden md:flex items-center gap-8 bg-[#FEFCF4] rounded-4xl py-3 px-10 text-[14px]">
+        <ul className="hidden md:flex items-center gap-2 bg-[#FEFCF4] rounded-4xl py-2 px-3 text-[14px]">
           {links.map((link) => (
             <li key={link.href}>
-              <a href={link.href}>{link.label}</a>
+              <a
+                href={link.href}
+                className="block rounded-full px-4 py-2 transition-colors duration-200 hover:bg-[#ffbb00a4]"
+              >
+                {link.label}
+              </a>
             </li>
           ))}
         </ul>
@@ -127,14 +134,13 @@ const Navbar = () => {
                   transition={{ delay: 0.45 }}
                   className="mt-10"
                 >
-                  <Button className="w-full bg-[#8ed447] text-gray-900">
-                    <a
-                      href="https://wa.me/555492150680?text=Olá!%20%F0%9F%91%8B%20Vi%20o%20site%20da%20VIBRA%20e%20adorei%20o%20trabalho%20de%20vocês.%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20e%20fazer%20um%20orçamento.%20%F0%9F%98%8A"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Fazer orçamento
-                    </a>
+                  <Button
+                    className="w-full bg-[#8ed447] text-gray-900"
+                    href="https://wa.me/555492150680?text=Olá!%20%F0%9F%91%8B%20Vi%20o%20site%20da%20VIBRA%20e%20adorei%20o%20trabalho%20de%20vocês.%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20e%20fazer%20um%20orçamento.%20%F0%9F%98%8A"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Fazer orçamento
                   </Button>
                 </motion.div>
               </motion.div>
@@ -143,14 +149,13 @@ const Navbar = () => {
         </AnimatePresence>
 
         {/* Desktop CTA */}
-        <Button className="hidden lg:block bg-[#8ed447] text-gray-900">
-          <a
-            href="https://wa.me/555492150680?text=Olá!%20%F0%9F%91%8B%20Vi%20o%20site%20da%20VIBRA%20e%20adorei%20o%20trabalho%20de%20vocês.%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20e%20fazer%20um%20orçamento.%20%F0%9F%98%8A"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Fazer orçamento
-          </a>
+        <Button
+          className="hidden lg:block bg-[#8ed447] text-gray-900 transition duration-300 ease-in-out hover:scale-105 hover:rotate-2"
+          href="https://wa.me/555492150680?text=Olá!%20%F0%9F%91%8B%20Vi%20o%20site%20da%20VIBRA%20e%20adorei%20o%20trabalho%20de%20vocês.%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20e%20fazer%20um%20orçamento.%20%F0%9F%98%8A"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Fazer orçamento
         </Button>
       </div>
     </nav>

@@ -27,7 +27,7 @@ const Gallery = () => {
                 ${index % 4 === 3 ? "-rotate-1" : ""}
 
                 ${[1, 7].includes(index) ? "row-span-2" : ""}
-                md:${[1, 4, 7].includes(index) ? "row-span-2" : ""}
+                ${[1, 4, 7].includes(index) ? "md:row-span-2" : ""}
               `}
             >
               <img

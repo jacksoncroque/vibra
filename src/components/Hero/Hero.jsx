@@ -47,7 +47,7 @@ const Hero = () => {
           <div className="flex flex-col gap-3 lg:flex-row lg:gap-8">
             <Button className="bg-[#E44734] px-7 py-5 t lg:px-5 lg:py-3">
               <a
-                href="https://wa.me/555492150680?text=Olá,%20vi%20seu%20site%20e%20gostaria%20de%20fazer%20um%20orçamento"
+                href="https://wa.me/555492150680?text=Olá!%20%F0%9F%91%8B%20Vi%20o%20site%20da%20VIBRA%20e%20adorei%20o%20trabalho%20de%20vocês.%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20e%20fazer%20um%20orçamento.%20%F0%9F%98%8A"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-gray-100"
@@ -56,10 +56,7 @@ const Hero = () => {
               </a>
             </Button>
 
-            <Button
-              className="border border-gray-300 bg-white px-7 py-5 font-bold text-gray-600 lg:px-5 lg:py-3"
-              on
-            >
+            <Button className="border border-gray-300 bg-white px-7 py-5 font-bold text-gray-600 lg:px-5 lg:py-3">
               <a href="#gallery">Ver produtos</a>
             </Button>
           </div>

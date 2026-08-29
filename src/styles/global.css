@@ -15,13 +15,19 @@ html {
   scroll-behavior: smooth;
   font-family: "Nunito", sans-serif;
   color: #361d11;
-  font-size: clamp(14px, 1vw, 16px);
 }
 
 body {
   min-width: 320px;
-  min-height: 100vh;
+}
+
+html,
+body {
   font-size: clamp(14px, 1vw, 16px);
+  min-height: auto;
+  background: rgb(251,246,232);
+  scrollbar-width: thin;
+  scrollbar-color: #f4d37c rgb(251,246,232);
 }
 
 .container-site {

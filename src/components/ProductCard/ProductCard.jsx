@@ -1,4 +1,3 @@
-// ProductCard.jsx
 import { motion } from "motion/react";
 
 const ProductCard = ({ item }) => {
@@ -26,9 +25,7 @@ const ProductCard = ({ item }) => {
 
       <div className="block px-3 py-8">
         <h3 className="font-anton text-2xl">{item.title}</h3>
-        <span className="text-[14px] text-[#796452]">
-          {item.description}
-        </span>
+        <span className="text-[14px] text-[#796452]">{item.description}</span>
       </div>
     </motion.div>
   );

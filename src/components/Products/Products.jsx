@@ -1,7 +1,7 @@
-// Products.jsx
 import { motion } from "motion/react";
 
 import ProductCard from "../ProductCard";
+
 import data from "./data";
 
 const containerVariants = {

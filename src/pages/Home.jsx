@@ -1,11 +1,11 @@
-import Contact from "@/components/Contact";
 import Depoiments from "@/components/Depoiments";
-import Footer from "@/components/Footer";
-import Gallery from "@/components/Gallery";
-import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import Navbar from "@/components/Navbar/Navbar";
 import Products from "@/components/Products";
+import Contact from "@/components/Contact";
+import Gallery from "@/components/Gallery";
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
 
 const Home = () => {
   return (

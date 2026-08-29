@@ -16,7 +16,7 @@ const Depoiments = () => {
             <blockquote
               key={item.id}
               style={{ backgroundColor: item.color }}
-              className={`w-full lg:w-102.5 h-fit flex flex-col rounded-4xl p-7 gap-4 shadow-[0_8px_20px_rgba(0,0,0,0.12)]`}
+              className={`w-full lg:w-102.5 h-fit flex flex-col rounded-4xl p-7 gap-4 shadow-[0_8px_20px_rgba(0,0,0,0.12)] transition duration-300 ease-in-out hover:scale-105`}
             >
               <div className="flex gap-1">
                 {[...Array(5)].map((_, index) => (

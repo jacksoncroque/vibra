@@ -21,15 +21,13 @@ const Budget = () => {
             24 horas.
           </p>
 
-          <Button className="bg-[#E44734] text-gray-100 py-5 px-9 text-[18px] max-w-lg">
-            <a
-              href="https://wa.me/555492150680?text=Olá!%20%F0%9F%91%8B%20Vi%20o%20site%20da%20VIBRA%20e%20adorei%20o%20trabalho%20de%20vocês.%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20e%20fazer%20um%20orçamento.%20%F0%9F%98%8A"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-4"
-            >
-              <MessageCircle /> Solicitar orçamento
-            </a>
+          <Button
+            className="bg-[#E44734] text-gray-100 py-5 px-9 text-[18px] max-w-lg flex items-center gap-4 transition duration-300 ease-in-out hover:scale-105 hover:rotate-2"
+            href="https://wa.me/555492150680?text=Olá!%20%F0%9F%91%8B%20Vi%20o%20site%20da%20VIBRA%20e%20adorei%20o%20trabalho%20de%20vocês.%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20e%20fazer%20um%20orçamento.%20%F0%9F%98%8A"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MessageCircle /> Solicitar orçamento
           </Button>
         </div>
       </div>

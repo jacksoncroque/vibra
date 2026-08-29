@@ -18,13 +18,11 @@ const HowItWorks = () => {
           {data.map((item) => (
             <li
               key={item.id}
-              className="relative z-10 flex items-start gap-5 md:block"
+              className="relative z-10 flex items-start gap-5 md:block "
             >
               {/* Ícone */}
-              <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-white">
-                <span className="flex">
-                  <item.icon size={28} color="#e6432f" />
-                </span>
+              <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-white transition ease-in-out hover:scale-110 hover:-rotate-6">
+                <item.icon size={28} color="#e6432f" />
               </div>
 
               {/* Conteúdo */}

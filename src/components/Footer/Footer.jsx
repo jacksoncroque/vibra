@@ -50,10 +50,19 @@ const Footer = () => {
             </div>
           </div>
           <div className="h-0.5 w-full bg-[#00000015] mt-10"></div>
-          <p className="mt-7 text-[12px]">
-            &copy; {new Date().getFullYear()} VIBRA. Todos os direitos
-            reservados
-          </p>
+          <div className="md:flex md:justify-between">
+            <p className="mt-7 text-[12px] md:flex md:justify-between">
+              &copy; {new Date().getFullYear()} VIBRA. Todos os direitos
+              reservados
+            </p>
+
+            <p className="mt-7 text-[12px] ">
+              Feito por{" "}
+              <a href="https://jacksoncroque.com/" target="_blank">
+                <i className="text-[#E44734]">Jackson</i>
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

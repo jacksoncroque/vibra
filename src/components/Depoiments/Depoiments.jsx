@@ -2,7 +2,7 @@ import data from "./data";
 
 const Depoiments = () => {
   return (
-    <section className="bg-[rgb(251,246,232)] py-8" id="depoiments">
+    <section className="bg-[rgb(251,246,232)] py-8 px-4" id="depoiments">
       <div className="mx-auto max-w-7xl py-8">
         <h1 className="font-anton my-4 flex flex-col text-[48px]">
           <span className="font-caveat text-4xl leading-6 text-[#E34935] ">
@@ -11,12 +11,12 @@ const Depoiments = () => {
           DEPOIMENTOS
         </h1>
 
-        <div className="grid grid-cols-3">
+        <div className="flex flex-col gap-4 md:grid md:grid-cols-3">
           {data.map((item) => (
             <blockquote
               key={item.id}
               style={{ backgroundColor: item.color }}
-              className={`w-102.5 h-54 flex flex-col rounded-4xl p-7 gap-4 shadow-[0_8px_20px_rgba(0,0,0,0.12)]`}
+              className={`w-full md:w-102.5 h-fit md:h-54 flex flex-col rounded-4xl p-7 gap-4 shadow-[0_8px_20px_rgba(0,0,0,0.12)]`}
             >
               <div className="flex gap-1">
                 {[...Array(5)].map((_, index) => (

@@ -19,7 +19,7 @@ const data = [
     author: "Rafael Lima",
     event: "Café Torra Alta",
     label: "RL",
-    color: "#f07c62",
+    color: "#8ed447",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const data = [
     author: "Juliana Alves",
     event: "Casamento",
     label: "JA",
-    color: "#8ed447",
+    color: " #f07c62",
   },
 ];
 

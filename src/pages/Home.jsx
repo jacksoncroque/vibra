@@ -1,4 +1,4 @@
-import Budget from "@/components/Budget";
+import Contact from "@/components/Contact";
 import Depoiments from "@/components/Depoiments";
 import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
@@ -19,7 +19,7 @@ const Home = () => {
         <HowItWorks />
         <Gallery />
         <Depoiments />
-        <Budget />
+        <Contact />
         <Footer />
       </main>
     </div>

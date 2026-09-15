@@ -4,7 +4,7 @@
   <img src="./public/logo/VIBRA.png" alt="Logo Vibra" width="180" />
 </p>
 
-Landing page responsiva para a **VIBRA**, marca de presentes personalizados. O site apresenta canecas, copos, ecobags e kits, com uma experiência visual focada em identidade, personalização e conversão para orçamento via WhatsApp.
+Site oficial da VIBRA, marca de presentes personalizados para transformar momentos especiais em lembranças únicas. O site apresenta canecas, copos, ecobags e kits, com uma experiência visual focada em identidade, personalização e conversão para orçamento via WhatsApp.
 
 ## Funcionalidades
 

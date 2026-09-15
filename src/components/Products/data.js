@@ -9,7 +9,7 @@ const data = [
     title: "CANECAS",
     description:
       "Cerâmica premium com estampas e nomes que viram parte da rotina.",
-    img: "/mockups/prod-canecas-SI831NSv.jpg",
+    img: "/mockups/prod-canecas.jpg",
     icon: GiCoffeeCup,
     chip: "Canecas",
   },
@@ -18,7 +18,7 @@ const data = [
     title: "COPOS",
     description:
       "Copos térmicos e long drink prontos para acompanhar cada rolê.",
-    img: "/mockups/prod-copos-Ddq4rgPy.jpg",
+    img: "/mockups/prod-copos.jpg",
     icon: TbCup,
     chip: "Canecas",
   },
@@ -36,7 +36,7 @@ const data = [
     title: "KITS PERSONALIZADOS",
     description:
       "Combos montados do jeito que a sua história pede, do laço ao bilhete.",
-    img: "/mockups/prod-kits-BCc-Dxb7.jpg",
+    img: "/mockups/kits-personalizados.jpg",
     icon: FaGift,
     chip: "Canecas",
   },

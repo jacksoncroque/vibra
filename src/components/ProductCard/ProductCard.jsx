@@ -13,7 +13,7 @@ const ProductCard = ({ item }) => {
       }}
       transition={{ type: "spring", stiffness: 260, damping: 18 }}
     >
-      <div className="h-64 w-full overflow-hidden rounded-3xl">
+      <div className="h-70 w-full overflow-hidden rounded-3xl">
         <motion.img
           src={item.img}
           alt={item.title}

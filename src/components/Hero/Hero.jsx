@@ -88,9 +88,9 @@ const Hero = () => {
           }}
         >
           <img
-            src="/images/hero-mockup-cKHTg1ET.jpg"
+            src="/images/hero_mockup.jpeg"
             alt="Produtos da VIBRA"
-            className="h-93.5 w-93.5 rounded-[2.5rem] object-cover md:h-150 md:w-150"
+            className="h-93.5 w-93.5 rounded-[2.5rem] object-cover md:h-150 md:w-150 shadow-[0_20px_50px_-12px_rgba(0,0,0,0.30)] contrast-105"
           />
         </motion.div>
       </div>
